@@ -1,13 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+
+import React from 'react';
+import Login from './components/Login'; // Corrected import paths
+import Signup from './components/Signup'; // Corrected import paths
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Student Form
+        <Login/>
+        {/* <Signup/> */}
       </header>
-    </div>
+    </div> 
   );
 }
 
