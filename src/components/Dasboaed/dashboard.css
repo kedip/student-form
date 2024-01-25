@@ -1,0 +1,62 @@
+/* dashboard.css */
+
+.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .dashboard_content {
+    padding: 20px;
+  }
+
+  /* dashboard.css */
+
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #333;
+}
+
+.dashboard_content {
+  padding: 20px;
+}
+
+.logout_button {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.logout_button:hover {
+  background-color: #c0392b;
+}
+
+.logout_button {
+    padding: 15px 30px; /* Adjusted padding for a larger button */
+    background-color: #8f2fcf; /* Different shade of red */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px; /* Adjusted font size for better visibility */
+    border-radius: 10px;
+  }
+  
+  .logout_button:hover {
+    background-color: #36e7a3; /* Darker shade on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
